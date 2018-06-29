@@ -1,1 +1,1 @@
-console.log("Hello from atlas-cubic-smoothing!")
+module.exports = x => x*x*(3-2*x)
