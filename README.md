@@ -66,7 +66,7 @@ We want to ask ourselves whether or not the smoothing function will squeeze or s
   <img alt="graph of s'(x) = 6x - 6x^2" src="docs/cubic_diff_graph.png">
 </p>
 
-Another interesting property of smoothing functions is that they tend to have *even* derivatives around the center of the input interval, meaning that values will be smoothed symmetrically around the middle (`x = .5`, in this case). If you transform coordinates of the smoothing function such that `a = x - .5`, you'll find that the derivative of the result is even, or that s'(a) = s'(-a).
+Another interesting property of smoothing functions is that they tend to have *even* derivatives around the center of the input interval, meaning that values will be smoothed symmetrically around the middle (`x = .5`, in this case). If you transform coordinates of the smoothing function such that `a = x - .5`, you'll find that the derivative of the result is even, or that `s'(a) = s'(-a)`.
 
 ## caveats
 
