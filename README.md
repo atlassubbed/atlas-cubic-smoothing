@@ -58,7 +58,7 @@ A derivative is just a fancy way to say "slope" at some point in our function. F
   <img alt="s'(x) = 6x - 6x^2" src="docs/cubic_diff.png">
 </p>
 
-We want to ask ourselves whether or not the smoothing function will squeeze or stretch our input values at a certain point. All we need to do is plug our point into the derivative above. For example, plugging in the point `x = .1` tells us that the derivative is `s'(.1) = .54`, meaning it grows at roughly half the rate of `f(x) = x` at the same point (hence, squeezing). If we input `x = .5`, we'll find that the derivative is `s'(.5) = 1.5`, which means it grows 50% faster in the center as `f(x) = x` (hence, stretching).
+We want to ask ourselves whether or not the smoothing function will squeeze or stretch our input values at a certain point. All we need to do is plug our point into the derivative above. For example, plugging in the point `x = .1` tells us that the derivative is `s'(.1) = .54`, meaning it grows at roughly half the rate of `f(x) = x` at the same point (hence, squeezing). If we input `x = .5`, we'll find that the derivative is `s'(.5) = 1.5`, which means it grows 50% faster in the center than `f(x) = x` (hence, stretching).
 
 #### derivative visualized
 
