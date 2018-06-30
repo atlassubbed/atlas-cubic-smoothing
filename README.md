@@ -26,7 +26,7 @@ The smoothing function used here is a 3rd order polynomial of the form:
 
 #### using smoothing
 
-```
+```javascript
 const smooth = require("atlas-cubic-smoothing");
 
 // create a vector of input values
